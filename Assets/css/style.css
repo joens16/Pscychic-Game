@@ -24,44 +24,8 @@ html {
 }
 
 .psychic_image {
-    margin-left: 600px;
+    margin: auto;
     height: 300px;
-    width: 300px;
+    width: 275px;
     border: solid 4px white;
 }
-
-@media screen and (max-width: 980px) {
-    .psychic_image {
-        width: 300px;
-        margin: auto;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .psychic_image {
-        width: 300px;
-        margin: auto;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .psychic_image {
-        width: 300px;
-        margin: auto; 
-    }
-}
-
-@media screen and (max-width: 640px) {
-    .psychic_image {
-        width: 300px;
-        margin: auto;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .psychic_image {
-        width: 300px;
-        margin: auto;
-    }
-}
-
