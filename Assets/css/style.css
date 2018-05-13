@@ -1,0 +1,67 @@
+html {
+    background-color: peru;
+}
+
+.only_body {
+    background-color: peru;
+}
+
+#header {
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    border: solid 4px white;
+}
+
+.jumbotron {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    border: solid 4px black;
+    margin-top: 1px;
+}
+
+.psychic_image {
+    margin-left: 600px;
+    height: 300px;
+    width: 300px;
+    border: solid 4px white;
+}
+
+@media screen and (max-width: 980px) {
+    .psychic_image {
+        width: 300px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .psychic_image {
+        width: 300px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .psychic_image {
+        width: 300px;
+        margin: auto; 
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .psychic_image {
+        width: 300px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .psychic_image {
+        width: 300px;
+        margin: auto;
+    }
+}
+
