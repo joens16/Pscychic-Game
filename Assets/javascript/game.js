@@ -24,6 +24,9 @@ document.onkeyup = function(event){
    // console.log(computerGuess);
     var pressedKey = String.fromCharCode(event.keyCode).toLowerCase();
     console.log("MyKey "+pressedKey);
+    
+    if (event.keyCode >= 65 && event.keyCode <= 90) {
+    
     guessedLetters.push(pressedKey);
     document.getElementById("guesses_so_far").innerHTML="Your Guesses so far: " + guessedLetters.join(", "); 
      //generate a random letter
@@ -60,7 +63,10 @@ document.onkeyup = function(event){
             reset();
         }
 
-    }
+    }}else{
+        attemptsLeft++;
+        alert("You did not press a letter ;p")
+    }    
 }
 
 
