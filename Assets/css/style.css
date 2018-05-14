@@ -1,26 +1,22 @@
-html {
-    background-color: peru;
-}
-
 .only_body {
-    background-color: peru;
+    margin: auto;
 }
 
 #header {
     background-color: black;
     color: antiquewhite;
     text-align: center;
-    width: 80%;
+    width: 71%;
     margin: 0 auto;
     border: solid 4px white;
 }
 
 .jumbotron {
-    width: 80%;
+    width: 71%;
     margin: auto;
     text-align: center;
     border: solid 4px black;
-    margin-top: 1px;
+    margin-top: 35px;
 }
 
 .psychic_image {
